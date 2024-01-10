@@ -9,12 +9,17 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'hero-bg': "url('../public/images/herobackground.png')",
+      },
+
+      fontFamily: {
+        poppins: ["Poppins", "sans-serif"],
+        Lora: ["Lora", "sans-serif"],
+        Lato: ["Lato", "sans-serif"],
       },
     },
   },
-  plugins: [],
+    plugins: [require("daisyui"), require("tailgrids/plugin")],
+
 }
 export default config
