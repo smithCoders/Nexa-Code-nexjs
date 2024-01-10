@@ -6,7 +6,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 import navBarLinks from "../data/navBarLinks";
 
-import logo from "../assets/logo.png";
+import logo from "../assets/logo.svg";
 
 const NavBar = () => {
   return (

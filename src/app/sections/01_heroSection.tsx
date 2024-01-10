@@ -29,7 +29,7 @@ const HeroSection = () => {
           <p className="text-white text-[15px] font-normal font-['Noto Sans KR']">
             상담 문의
           </p>
-          <div>
+          <div className="cursor-pointer">
             <Image src={rightArrow} alt="right-arrow" />
           </div>
         </div>
