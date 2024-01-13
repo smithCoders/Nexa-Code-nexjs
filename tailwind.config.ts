@@ -17,6 +17,10 @@ const config: Config = {
         Lora: ["Lora", "sans-serif"],
         Lato: ["Lato", "sans-serif"],
       },
+
+      boxShadow: {
+        'sample-shadow': '4px 4px 4px 3px rgba(0, 0, 0, 0.15)'
+      }
     },
   },
     plugins: [require("daisyui"), require("tailgrids/plugin")],
