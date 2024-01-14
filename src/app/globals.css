@@ -101,6 +101,26 @@ body {
   z-index: 1;
 }
 
+.processes-section {
+  position: relative;
+}
+
+.processes-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("/images/process_background.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* opacity: calc(50%); */
+  z-index: -1;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;

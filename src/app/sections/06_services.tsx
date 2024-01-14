@@ -6,12 +6,27 @@ import serviceTwo from "../assets/service_two.svg";
 
 const Services = () => {
   return (
-    <main className="max-container px-20 pt-[315px] bg-[#fff]">
-      <h2 className="text-[#000] text-[50px] text-center font-bold tracking-[-1.5px]">
+    <main
+      className="max-container px-20 pt-[315px] bg-[#fff]
+    max-medium:pt-[200px]
+    max-small:pt-[150px]
+    max-small:px-0
+    "
+    >
+      <h2
+        className="text-[#000] text-[50px] text-center font-bold tracking-[-1.5px]
+      max-medium:text-[40px]
+      max-small:text-[25px]
+      "
+      >
         넥사코드가 잘 하는 것
       </h2>
 
-      <div className="flex justify-between mt-[90px] ">
+      <div
+        className="flex justify-between mt-[90px] 
+      max-medium:mt-[65px] max-medium:flex-col max-medium:gap-10
+      "
+      >
         <Service
           title="앱 개발"
           description="개발하지 못하면 환불해드립니다"

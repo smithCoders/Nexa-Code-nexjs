@@ -19,14 +19,28 @@ const Service = ({ title, description, description2, image }: serviceProps) => {
           className="w-[250px] h-[250px]"
         />
       </div>
-      <h2 className="mt-[25px] text-[#333] text-[35px] font-semibold tracking-[-1.05px]">
+      <h2
+        className="mt-[25px] text-[#333] text-[35px] font-semibold tracking-[-1.05px]
+      max-small:text-[25px]
+      max-small:mt-[20px]
+      
+      "
+      >
         {title}
       </h2>
-      <p className="mt-[15px] text-[#333] text-[18px] font-semibold tracking-[-0.6px]">
+      <p
+        className="mt-[15px] text-[#333] text-[18px] font-semibold tracking-[-0.6px]
+      max-small:text-[16px] max-small:mt-[8px]
+      "
+      >
         {description}
       </p>
       {description2 && (
-        <p className=" text-[#333] text-[18px] font-semibold tracking-[-0.6px]">
+        <p
+          className=" text-[#333] text-[18px] font-semibold tracking-[-0.6px]
+      max-small:text-[16px]
+        "
+        >
           {description2!}
         </p>
       )}

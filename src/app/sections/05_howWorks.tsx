@@ -6,14 +6,30 @@ import howNonExpanded_2 from "../assets/how_work_non_expanded_3.png";
 
 const HowNexaWorks = () => {
   return (
-    <section className="max-container bg-[#fff] pt-[240px]">
+    <section
+      className="max-container bg-[#fff] pt-[240px]
+    max-medium:pt-[150px]
+    "
+    >
       <div>
-        <h2 className="text-center mb-[90px] text-[50px] font-bold tracking-[-1.5px] text-[#000]">
+        <h2
+          className="text-center mb-[90px] text-[50px] font-bold tracking-[-1.5px] text-[#000]
+        max-medium:text-[40px]
+        "
+        >
           넥사코드는 어떻게 일할까요?
         </h2>
 
-        <div className="flex gap-[10px] ">
-          <section className="how-one w-3/5 ">
+        <div
+          className="flex gap-[10px] 
+        max-medium:flex-col
+        "
+        >
+          <section
+            className="how-one w-3/5
+          max-medium:w-full
+          "
+          >
             <div className="w-full mt-[50px] flex flex-col justify-center text-center">
               <p className="z-10 text-[#fff] text-[30px] font-semibold tracking-[-1.5px] ">
                 프로젝트를 진단해 방향성과
