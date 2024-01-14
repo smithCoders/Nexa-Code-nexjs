@@ -6,7 +6,7 @@ import serviceTwo from "../assets/service_two.svg";
 
 const Services = () => {
   return (
-    <main className="px-20 pt-[315px] bg-[#fff]">
+    <main className="max-container px-20 pt-[315px] bg-[#fff]">
       <h2 className="text-[#000] text-[50px] text-center font-bold tracking-[-1.5px]">
         넥사코드가 잘 하는 것
       </h2>

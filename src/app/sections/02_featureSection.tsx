@@ -6,7 +6,7 @@ import feature03 from "../assets/feature03.svg";
 
 const FeatureSection = () => {
   return (
-    <section className="bg-white pt-[190px] pb-[180px]">
+    <section className="max-container bg-white pt-[190px] pb-[180px]">
       <div className="mb-[74px]">
         <p className="text-center text-black text-[50px] font-light leading-[1.5]">
           개발사 선정에 <span className="font-bold">고민이 많으시죠?</span>

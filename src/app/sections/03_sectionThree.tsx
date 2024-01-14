@@ -6,7 +6,7 @@ import separator from "../assets/separator.svg";
 
 const AboutCompany = () => {
   return (
-    <section className="bg-white">
+    <section className="max-container bg-white">
       <div className="flex flex-col justify-center items-center">
         <div className="text-center mb-[20px]">
           <p className="text-black text-[30px] font-normal tracking-[-0.9] font-['Noto Sans KR']">

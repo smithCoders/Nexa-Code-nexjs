@@ -6,7 +6,7 @@ import howNonExpanded_2 from "../assets/how_work_non_expanded_3.png";
 
 const HowNexaWorks = () => {
   return (
-    <section className="bg-[#fff] pt-[240px]">
+    <section className="max-container bg-[#fff] pt-[240px]">
       <div>
         <h2 className="text-center mb-[90px] text-[50px] font-bold tracking-[-1.5px] text-[#000]">
           넥사코드는 어떻게 일할까요?
