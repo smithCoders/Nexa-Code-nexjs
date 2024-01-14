@@ -9,8 +9,20 @@ const SampleOne = () => {
     <main className="flex flex-col justify-center items-center  bg-[#fff]">
       <section className=" border-[1px] border-solid border-[#D9D9D9] shadow-sample-shadow">
         <div className="flex flex-col">
-          <header className="bg-[#D8E5F3] py-[21px] px-[120px] flex justify-center items-center">
-            <p className="text-[30px] font-semibold tracking-[-1.2px] text-[#3480D2]">
+          <header
+            className="bg-[#D8E5F3] py-[21px] px-[120px] flex justify-center items-center
+          max-medium:px-[50px]
+          max-small:px-[25px]
+          max-small:py-2
+          max-extraSmall:px-[20px]
+          max-extraSmall:py-[5px]
+          "
+          >
+            <p
+              className="text-[30px] font-semibold tracking-[-1.2px] text-[#3480D2]
+            max-extraSmall:text-[20px]
+            "
+            >
               모두의 노래방
             </p>
           </header>
@@ -25,17 +37,30 @@ const SampleOne = () => {
         </div>
       </section>
 
-      <section className=" mt-[62px]">
+      <section
+        className=" mt-[62px]
+      max-extraSmall:mt-[40px]
+      "
+      >
         <div>
-          <h2 className="text-[28px] text-[#333] text-center font-semibold tracking-[-1.2px]">
+          <h2
+            className="text-[28px] text-[#333] text-center font-semibold tracking-[-1.2px]
+          max-extraSmall:text-[16px] max-extraSmall:text-nowrap
+          "
+          >
             직접 기획/개발/운영 240만 다운로드앱
           </h2>
 
-          <div className="pl-12 mt-5">
+          <div
+            className="pl-12 mt-5
+          max-extraSmall:mt-3
+          "
+          >
             <p
               className="text-[20px] text-[#A4A4A4] font-normal tracking-[-0.9px]
             relative before:absolute before:content-[' '] before:w-[6px] before:h-[6px] before:bg-[#A4A4A4]  before:rounded-full
             before:top-[50%] before:transform before:translate-y-[-50%] before:left-[-24px]
+            max-extraSmall:text-[14px]
             "
             >
               리뷰 1.6만개, 평점 4.8점
@@ -44,6 +69,8 @@ const SampleOne = () => {
               className="text-[20px] text-[#A4A4A4] font-normal tracking-[-0.9px]
             relative before:absolute before:content-[' '] before:w-[6px] before:h-[6px] before:bg-[#A4A4A4]  before:rounded-full
             before:top-[50%] before:transform before:translate-y-[-50%] before:left-[-24px]
+            max-extraSmall:text-[14px]
+
             "
             >
               음악 카테고리 7위(구글스토어)

@@ -27,12 +27,12 @@ const FeatureSection = () => {
         </p>
       </div>
       <div
-        className="flex flex-auto justify-center items-center gap-[20px]
+        className="flex  justify-center items-center gap-[20px]
       max-largeMedium:flex-col
       "
       >
         <div
-          className={`bg-[#333] text-[#fff] flex  flex-auto flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#fff]
+          className={`bg-[#333] text-[#fff] flex flex-col justify-center items-center pb-[52px] pt-[50px] px-[40px] border border-[#fff]
           max-small:px-[15px] max-small:pt-[40px]
           `}
         >
