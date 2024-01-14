@@ -5,6 +5,7 @@ import Samples from "./sections/04_samples";
 import HowNexaWorks from "./sections/05_howWorks";
 import Services from "./sections/06_services";
 import Processes from "./sections/08_processSection";
+import Principles from "./sections/09_principlesSection";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <HowNexaWorks />
       <Services />
       <Processes />
+      <Principles />
     </main>
   );
 }
