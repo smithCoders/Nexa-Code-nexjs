@@ -14,7 +14,7 @@ export default function Home() {
       <FeatureSection />
       <AboutCompany />
       <Samples />
-      <HowNexaWorks />
+      {/* <HowNexaWorks /> */}
       <Services />
       <Processes />
       <Principles />
