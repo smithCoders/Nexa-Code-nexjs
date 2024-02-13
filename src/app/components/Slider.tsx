@@ -135,23 +135,23 @@ const handleClick = (imageId: number) => {
           {/* img-1 */}
            {image.id === 1 && (
             <div className=" absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2">
-              <div className="mb-4">
-                <p className="text-xl text-center leading-10 font-bold  text-slate-50 ">
+              <div className="mb-4  flex flex-col">
+                <p className="text-xl text-center leading-10 font-bold  text-slate-50 overflow-hidden hover:border-b-[2px] border-blue-700   ">
                   프로젝트를 진단해 방향성과
                 </p>
-                 <p className="text-lg font-bold text-slate-50">
+                 <p className="text-lg font-bold text-slate-50  overflow-hidden hover:border-b-[2px] border-b-blue-700 ">
                   성장성을 같이 고민합니다
                 </p>
               </div>
-              <div className="mb-4">
+              <div className=" flex flex-col mb-4">
                
                 <p className="text-sm text-slate-50">
-                 <span className="text-[10px] text-slate-50 block">결코, 고객을 탓하지 않습니다</span>
-                 <span className="text-[10px] text-slate-50 block">고객의 성공에 기여하기 위해 성심을 다합니다</span>
+                 <span className="text-[10px] text-slate-50 block hover:border-b-[2px] border-blue-700 ">결코, 고객을 탓하지 않습니다</span>
+                 <span className="text-[10px] text-slate-50 block hover:border-b-[2px] border-blue-700 ">고객의 성공에 기여하기 위해 성심을 다합니다</span>
                 </p>
               </div>
-              <button className="bg-white py-2 px-4 rounded-lg text-[10px] text-slate-900 ml-8">
-                  프로세스
+              <button className="bg-white py-[5px] px-[13px] rounded-[25px] text-[10px] ">
+                 <span className=' text-slate-900  block  hover:border-b-[2px] border-blue-700 '> 프로세스</span> 
               </button>
             </div>
           )}
