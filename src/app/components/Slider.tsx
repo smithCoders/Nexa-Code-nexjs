@@ -6,8 +6,8 @@ import first from "../assets/how_work_expanded_1.png";
 import sec from "../assets/how_work_non_expanded_2.png";
 import third from "../assets/how_work_non_expanded_3.png";
 
-interface ImageData {
-  id: number;
+type ImageData = {
+  id: number; // Add the 'id' property to the 'ImageData' type definition
   src: StaticImageData;
   alt: string;
   width: number;
@@ -16,7 +16,9 @@ interface ImageData {
   left: number;
   borderRadius: number;
   opacity: number;
-}
+  isHovered: boolean;
+};
+
 
 const initialImages: ImageData[] = [
   {
@@ -29,7 +31,9 @@ const initialImages: ImageData[] = [
     left: 0,
     borderRadius: 0,
     opacity: 1,
+     isHovered: false,
    
+    
   },
   {
     id: 2,
@@ -41,6 +45,7 @@ const initialImages: ImageData[] = [
     left: 0,
     borderRadius: 0,
     opacity: 1,
+     isHovered: false,
   },
   {
     id: 3,
@@ -52,6 +57,7 @@ const initialImages: ImageData[] = [
     left: 0,
     borderRadius: 0,
     opacity: 1,
+     isHovered: false,
   },
 ];
 
