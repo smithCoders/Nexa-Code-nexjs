@@ -6,6 +6,7 @@ import HowNexaWorks from "./sections/05_howWorks";
 import Services from "./sections/06_services";
 import Processes from "./sections/08_processSection";
 import Principles from "./sections/09_principlesSection";
+import  Slider from "./sections/07_Slider"
 
 export default function Home() {
   return (
@@ -15,6 +16,8 @@ export default function Home() {
       <AboutCompany />
       <Samples />
       {/* <HowNexaWorks /> */}
+      <Slider/>
+
       <Services />
       <Processes />
       <Principles />
