@@ -19,7 +19,7 @@ export default function Home() {
       <AboutCompany />
       <Samples />
       {/* <HowNexaWorks /> */}
-      {/* <Slider/> */}
+      <Slider/>
 
       <Services />
       <Processes />
