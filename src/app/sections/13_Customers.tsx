@@ -12,7 +12,7 @@ const PartnersPage: React.FC = () => {
     style={{backgroundImage:`url("./bg_img.jpg")`,backgroundPosition:"center", backgroundSize:"cover"}}
     >
       <h2
-        className="text-[#000] text-[50px] text-center font-bold tracking-[-1.5px]
+        className="text-[#000] text-[50px] text-center font-bold tracking-[-1.5px] mb-10
       max-medium:text-[40px]
       max-small:text-[25px]"
       >
