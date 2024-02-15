@@ -9,6 +9,7 @@ import Principles from "./sections/09_principlesSection";
 import  Slider from "./sections/07_Slider"
 import PartnerPage  from "./sections/13_Customers"
 import CallToAction from "./sections/14_CallToAction"
+import Footer from "./sections/15_Footer"
 
 export default function Home() {
   return (
@@ -25,6 +26,7 @@ export default function Home() {
       <Principles />
       <PartnerPage/>
       <CallToAction/>
+      <Footer/>
     </main>
   );
 }
