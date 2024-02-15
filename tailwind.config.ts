@@ -26,6 +26,7 @@ const config: Config = {
       screens: {
         largeMedium: "1200px",
         medium: "900px",
+     
         small: "540px",
         extraSmall: "450px",
         verySmall: "300px"
