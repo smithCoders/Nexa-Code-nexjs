@@ -20,6 +20,7 @@ return <section className="mt-10">
               <div className="flex flex-col mb-14">
                 <p className="text-sm text-slate-50">
                   <span className="text-[30px] text-slate-50 font-bold block">찾지 말고 넥사코드에 연락하세요!</span>
+                  
                 </p>
               </div>
               <div className="flex items-center justify-center mt-3">

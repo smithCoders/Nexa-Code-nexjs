@@ -10,6 +10,7 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'hero-bg': "url('../public/images/herobackground.png')",
+        // 'partner-bg':"url('../public/bg_img.jpg')"
       },
 
       fontFamily: {
